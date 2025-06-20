@@ -1,0 +1,27 @@
+.contact-content {
+    height:800px;
+    /* background-color: rgb(230, 148, 148); */
+    display: flex;
+    margin-top:20px;
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+    overflow: hidden;
+    
+    border-radius: 4px;
+    
+    
+}
+.contact-content::after{
+    content: "";
+    background-image: url('../img/news.jpg');
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height:inherit;
+    opacity:0.40;
+    z-index: -1;
+    overflow: hidden;
+    /* margin-bottom: 50px; */
+
+}

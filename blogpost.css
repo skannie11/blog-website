@@ -1,0 +1,18 @@
+.post-img{
+    height: 170px;
+}
+.post-img img{
+    height: 70vh;
+    width: 100%;
+
+}
+.row{
+    display: flex;
+    
+}
+
+.more-post{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

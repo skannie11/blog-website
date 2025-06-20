@@ -1,0 +1,56 @@
+@media screen and (max-width:1250px){
+    .navigation{
+        flex-direction: column;
+        
+        width: auto;
+        margin-bottom: 40px ;
+    }
+    .nav-Left{
+        flex-direction: column;
+        text-align: center;
+    }.nav-right{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        width: auto;
+    }
+    .right-content{
+    
+        display: none;
+    }
+    .left-content {
+        height: auto; /* Let the height adjust automatically */
+        min-height: 200px; /* Optional: Set a minimum height */
+        padding: 20px; /* Add padding for spacing */
+    }
+    .form-input{
+        width: 50%;
+    }
+    .content {
+        flex-direction: column; /* Stack left-content and right-content vertically */
+        align-items: center; /* Center-align content */
+        margin-top: 65px;
+        height: auto; /* Let the height adjust automatically */
+    }
+    .home-articles{
+        flex-direction: column;
+        align-items: center;
+        
+        height: auto;
+        margin-top: 70px;
+        margin-left:50px;
+
+    }
+.home-article-img{ text-align: center;}
+.home-article img{
+    height: 150px;
+    width: 150px;
+    
+}
+.home-article{
+    flex-direction: column;
+}
+.contact-content{
+    margin-top: 80px;
+}
+}
